@@ -1,0 +1,14 @@
+server:
+  port: 18032
+  servlet:
+    context-path: /test_consumer
+nrpc:
+  enabled: true
+  nrpcnode:
+    appid: n456
+    appname: test_consumer
+  registry:
+    addresses: http://127.0.0.1:18330/nrpc-registry
+    accesstoken: a123
+  consumer:
+    svcorethreads: 20

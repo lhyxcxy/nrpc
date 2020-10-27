@@ -1,0 +1,10 @@
+server:
+  port: 18330
+  servlet:
+    context-path: /nrpc-registry
+spring:
+  profiles:
+    active: dev
+nrpc:
+  accesstokens: a123,a456
+  register_heartbat_outtime: 10

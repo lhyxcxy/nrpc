@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+lhy.nrpc.spring.boot.autoconfigure.NRpcAutoConfiguration
+org.springframework.context.ApplicationListener=\
+lhy.nrpc.spring.boot.autoconfigure.NRpcContextRefreshedListener
+org.springframework.context.ApplicationContextInitializer=\
+lhy.nrpc.spring.boot.autoconfigure.NRpcApplicationContextInitializer

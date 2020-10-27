@@ -1,0 +1,9 @@
+nrpc:
+  reguster_heartbat_outtime: 10
+# 配置mybatis-plus打印sql日志
+logging:
+  config: classpath:logback-dev.xml
+  level:
+    lhy.nrpc.registry: info
+  #设置logback.xml中的LOG_PATH变量
+  path: E:\projects\bsps\data\admin\applogs

@@ -1,0 +1,16 @@
+server:
+  port: 18031
+  servlet:
+    context-path: /test_provider
+nrpc:
+  enabled: true
+  nrpcnode:
+    appid: n123
+    appname: dubbo-provider
+  provider:
+    port: 18040
+  registry:
+    addresses: http://127.0.0.1:18330/nrpc-registry
+    accesstoken: a123
+  consumer:
+    svcorethreads: 20
