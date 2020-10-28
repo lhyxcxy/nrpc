@@ -1,7 +1,7 @@
 
 # 说明
 
-使用springboot+netty 实现了rpc框架demo，参考了dubbo、xxl-job，临时整的代码、可能有bug，代码有点乱，仅供学习使用。
+使用springboot+netty 实现了rpc框架demo，参考了dubbo、xxl-job，短时间搭建、可能有bug，代码有点乱，后期有时间再改吧、仅供学习使用。
 
 # 使用
 
